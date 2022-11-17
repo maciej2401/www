@@ -1,0 +1,31 @@
+body {
+	font-family: 'Comfortaa', cursive;
+	background-color: #333;
+	color: #fff;
+	font-size: 36px;
+}
+.ig1 {
+	font-size: 36px;
+	color: greenyellow;
+}
+.ig2 {
+	font-size: 36px;
+	color: crimson;
+}
+.ig3 {
+	font-size: 36px;
+	color: magenta;
+}
+.img-wood1 {
+    display: block;
+    margin: 0 auto;
+	width: 800px;
+	border-radius: 25px;
+}
+.div1 {
+	color: lime;
+}
+.span1 {
+	color: tomato;
+    text-decoration: underline;
+}
