@@ -16,8 +16,7 @@ body{
 .circle {
 	height: 300px;
 	width: 300px;
-	background-color: red;
-	opacity: 0.3;
+	background-color:rgba(255, 0, 0, .3);
 	border-radius: 50%;
 }
 .box-2 {
@@ -28,13 +27,14 @@ body{
 	background-color: lime;
 }
 .box-3 {
-	height: 200px;
+	height: 300px;
 	width: 50vw;
 	background-color: tomato;
 }
 
 .inside {
-	height: 30vh;
-	width: 25vw;
-	background-color: royalblue;
+	height: 50vh;
+	width: 50%;
+	background-color: #0076e8;
 }
+ 
