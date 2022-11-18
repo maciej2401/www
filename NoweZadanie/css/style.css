@@ -2,6 +2,11 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	background-color: #333;
+}
 
 .box-1 {
 	height: 400px;
