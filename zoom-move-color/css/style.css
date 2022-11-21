@@ -4,88 +4,59 @@
 	padding: 0;
 }
 body {
-	position: relative;
+	font-family: 'montserrat' sans-serif;
 	font-family: 'Nunito', sans-serif;
 	background-color: gray;
 }
-
-.btn-zoom {
+button {
 	position: absolute;
 	top: 50px;
-	left: 40%;
 	transform: translateX(-50%);
-	text-align: center;
+	font-family: 'nunito', sans-serif;
 	width: 120px;
 	padding: 10px 30px;
 	background: none;
 	color: white;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-size: large;
+	font-weight: bold;
 	border: 3px solid white;
 	border-radius: 5px;
 	cursor: pointer;
+	transition: 0.3s;
+}
+.btn-zoom {
+	left: 40%;
 }
 .btn-move {
-	position: absolute;
-	top: 50px;
 	left: 50%;
-	transform: translateX(-50%);
-	text-align: center;
-	width: 120px;
-	padding: 10px 30px;
-	background: none;
-	color: white;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-size: large;
-	border: 3px solid white;
-	border-radius: 5px;
-	cursor: pointer;
 }
 .btn-color {
-	position: absolute;
-	top: 50px;
 	left: 60%;
-	transform: translateX(-50%);
-	text-align: center;
-	width: 120px;
-	padding: 10px 30px;
-	background: none;
-	color: white;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-size: large;
-	border: 3px solid white;
-	border-radius: 5px;
-	cursor: pointer;
 }
 .btn-color:hover {
 	background-color: white;
 	color: black;
 	border: black;
-	transition: 0.3s;
 }
 .btn-move:hover {
 	background-color: white;
 	color: black;
 	border: black;
-	transition: 0.3s;
 }
 .btn-zoom:hover {
 	background-color: white;
 	color: black;
 	border: black;
-	transition: 0.3s;
 }
 .square {
 	position: absolute;
-	padding: 10px 30px;
 	top: 150px;
 	height: 100px;
 	width: 100px;
 	border-radius: 25px;
 	transform: translateX(-50%);
+	transition: 0.3s;
 }
 .blue {
 	left: 40%;
@@ -97,22 +68,22 @@ body {
 	left: 50%;
 	background-color: tomato;
 	border: 2px solid red;
-	box-shadow: 0px 0px 15px red; 
+	box-shadow: 0px 0px 15px red;
 }
 .green {
 	left: 60%;
 	background-color: greenyellow;
 	border: 2px solid green;
-	box-shadow: 0px 0px 15px green; 
+	box-shadow: 0px 0px 15px green;
 }
 
 .btn-zoom:hover ~ .square {
-	zoom: 200%;
-	transition: 1s;
+	width: 200px;
+	height: 200px;
+	/* zoom: 200%; */
 }
 .btn-move:hover ~ .square {
 	margin-top: 500px;
-	transition: 1s;
 }
 .btn-color:hover ~ .square {
 	background-color: black;
