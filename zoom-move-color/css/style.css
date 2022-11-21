@@ -81,6 +81,8 @@ button {
 	width: 200px;
 	height: 200px;
 	/* zoom: 200%; */
+	/* scale: 2; */
+
 }
 .btn-move:hover ~ .square {
 	margin-top: 500px;
