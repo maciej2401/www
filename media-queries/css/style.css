@@ -7,7 +7,7 @@ body {
 	height: 100vh;
 	background-color: #333;
 }
-.square {
+/* .square {
 	height: 300px;
 	width: 300px;
 	background-color: gold;
@@ -35,5 +35,21 @@ body {
 @media (min-width: 800px) {
 	body {
         background-image: linear-gradient(326deg, #a4508b 0%, rgba(85, 9, 79, 0.667) 74%);
+	}
+} */
+.square{height: 100%;background-color: greenyellow;}
+@media (min-width: 200px) and (max-width: 400px){
+	.square {
+		background-color: gold;
+	}
+}
+@media (min-width: 400px) and (max-width: 600px){
+	.square {
+		background-color: royalblue;
+	}
+}
+@media (min-width: 600px) and (max-width: 800px){
+	.square {
+		background-color: tomato;
 	}
 }
