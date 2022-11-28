@@ -1,0 +1,240 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
+.tigers-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.tigers-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.tigers-text h1 {
+	margin-bottom: 5px;
+	text-shadow: 3px 3px 5px #000;
+	color: #ddd;
+}
+
+.tigers-text span {
+	text-transform: uppercase;
+	color: #09f;
+}
+
+.section-title {
+	margin: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+section {
+	scroll-margin-top: 60px;
+}
+
+nav {
+	position: sticky;
+	top: 0;
+	height: 60px;
+	line-height: 60px;
+	background-color: #ddd;
+	text-align: center;
+	z-index: 10;
+}
+
+.burger-icon {
+	display: block;
+	margin-left: auto;
+	padding: 0 30px;
+	line-height: 60px;
+	font-size: 30px;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.nav-items {
+	display: none;
+}
+
+/* header */
+
+.header {
+	position: relative;
+	height: 330px;
+	background-image: url('../img/tigers-smal.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+/* main */
+
+main {
+	margin: 80px 0;
+}
+
+/* o nas */
+
+.about-us-info {
+	margin-bottom: 10px;
+	padding: 0 20px;
+}
+
+/* produkty */
+
+.produkts {
+	margin: 80px auto;
+}
+
+.product {
+	position: relative;
+	height: 300px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.product:hover h3 {
+	scale: 1.6;
+}
+
+.product h3 {
+	text-transform: uppercase;
+	transition: scale 0.8s;
+}
+
+.first-product {
+	background-image: url('../img/main/children-640.jpg');
+}
+
+.second-product {
+	background-image: url('../img/main/keyboard-640.jpg');
+}
+
+.third-product {
+	background-image: url('../img/main/laptop-640.jpg');
+}
+
+.fourth-product {
+	background-image: url('../img/main/woman-640.jpg');
+}
+
+/* kontakt */
+
+.contact {
+	text-align: center;
+}
+
+.contact h3 {
+	margin: 20px 0 5px;
+	text-transform: uppercase;
+}
+
+/* footer */
+
+footer {
+	padding: 30px 10px;
+	text-align: center;
+	background-color: #ddd;
+}
+
+/* @media */
+
+@media (min-width: 768px) {
+	.burger-icon {
+		display: none;
+	}
+
+	.nav-items {
+		display: block;
+	}
+
+	.header {
+		height: 400px;
+		background-image: url('../img/tigers-big.jpg');
+	}
+
+	.tigers-text h1 {
+		font-style: 36px;
+	}
+
+	.tigers-text p {
+		font-style: 18px;
+	}
+	.product h3 {
+		font-size: 24px;
+	}
+}
+
+.nav-items a {
+	padding: 0 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #333;
+	transition: color 0.3s;
+}
+
+.nav-items a:hover {
+	color: #09f;
+}
+@media (min-width: 992px) {
+	.product-box {
+		font-size: 0;
+	}
+	.product {
+		display: inline-block;
+		width: 50%;
+	}
+}
+@media (min-width: 1200px) {
+	.tigers-text h1 {
+		font-size: 42px;
+	}
+	.tigers-text p {
+		font-style: 20px;
+	}
+
+	.first-product {
+		height: 500px;
+		background-image: url('../img/main/children-1920.jpg');
+	}
+
+	.second-product {
+		height: 500px;
+		background-image: url('../img/main/keyboard-1920.jpg');
+	}
+
+	.third-product {
+		height: 500px;
+		background-image: url('../img/main/laptop-1920.jpg');
+	}
+
+	.fourth-product {
+		height: 500px;
+		background-image: url('../img/main/woman-1920.jpg');
+	}
+}
