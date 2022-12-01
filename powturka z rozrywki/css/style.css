@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/* 
+body {
+	text-transform: uppercase;
+	text-align: center;
+} */
+.long {
+	position: absolute;
+	padding: 10px;
+	top: 250px;
+	left: 50px;
+	height: 600px;
+	width: 150px;
+	background-color: tomato;
+    overflow: hidden;
+	transition: height 0.8s;
+}
+
+.long:hover {
+	height: 200px;
+}
+
+.big {
+	position: absolute;
+	top: 250px;
+	right: 50px;
+	height: 600px;
+	width: 800px;
+	background-color: royalblue;
+}
+
+.child {
+	border: 3px solid black;
+	height: 200px;
+	transition: background-color 1s;
+}
+
+.first + .child {
+	background-color: greenyellow;
+}
+
+.first:hover ~ .child {
+	background-color: gold;
+}
