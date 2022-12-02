@@ -1,0 +1,16 @@
+// $main-color: lime body
+$main-color: lime;
+
+body {
+	background-color: black;
+
+	H1 {
+		color: aqua;
+	}
+	div {
+		background-color: gold;
+		div {
+			background-color: aquamarine;
+		}
+	}
+}

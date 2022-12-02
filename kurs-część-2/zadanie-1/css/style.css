@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+}
+body H1 {
+  color: aqua;
+}
+body div {
+  background-color: gold;
+}
+body div div {
+  background-color: aquamarine;
+}/*# sourceMappingURL=style.css.map */

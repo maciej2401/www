@@ -1,0 +1,19 @@
+$width: 200px;
+$height: 200px;
+$bg-color: lime;
+$second-bg-color: red;
+
+body {
+	background-color: blue;
+	div {
+		width: $width;
+		height: $height;
+	}
+
+	.one {
+		background-color: $bg-color;
+	}
+	.two {
+		background-color: $second-bg-color;
+	}
+}

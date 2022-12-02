@@ -1,0 +1,13 @@
+body {
+  background-color: blue;
+}
+body div {
+  width: 200px;
+  height: 200px;
+}
+body .one {
+  background-color: lime;
+}
+body .two {
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */
