@@ -1,13 +1,23 @@
 body {
-  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333;
+  font-family: sans-serif;
 }
-body div {
+body .squere {
+  margin: 50px;
   width: 200px;
   height: 200px;
+  border: 5px solid black;
 }
-body .one {
+body .item1 {
   background-color: lime;
 }
-body .two {
+body .item2 {
   background-color: red;
+}
+body .item3 {
+  background-color: purple;
 }/*# sourceMappingURL=style.css.map */
