@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #333;
+	font-family: sans-serif;
+}
+
+@mixin addons {
+    border-radius: 25px;
+    background-color: gold;
+}
+
+.square {
+	margin: 30px;
+	height: 200px;
+	width: 200px;
+	border: 5px solid black;
+    @include addons;
+}
+
