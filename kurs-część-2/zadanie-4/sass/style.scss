@@ -1,4 +1,4 @@
-@import './colors';
+@use './colors' as colors;
 
 * {
 	box-sizing: border-box;
@@ -26,17 +26,17 @@ body {
 }
 
 .one {
-	background-color: $red;
+	background-color: colors.$red;
 }
 .two {
-	background-color: $green;
+	background-color: colors.$green;
 }
 .three {
-	background-color: $blue;
+	background-color: colors.$blue;
 }
 .four {
-	background-color: $red2;
+	background-color: colors.$red2;
 }
 .five {
-	background-color: $yellow;
+	background-color: colors.$yellow;
 }

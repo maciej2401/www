@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333;
+  font-family: sans-serif;
+}
+
+.square {
+  margin: 30px;
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  border-radius: 25px;
+  border-radius: 25px;
+  background-color: gold;
+}
+
+.one {
+  background-color: tomato;
+}
+
+.two {
+  background-color: lime;
+}
+
+.three {
+  background-color: royalblue;
+}
+
+.four {
+  background-color: orange;
+}
+
+.five {
+  background-color: yellowgreen;
+}/*# sourceMappingURL=style.css.map */
