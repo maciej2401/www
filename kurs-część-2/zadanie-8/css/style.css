@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 50px;
+  font-family: sans-serif;
+  font-size: 38px;
+  color: #fff;
+  background-color: #333;
+}
+
+div {
+  margin: 50px;
+}
+
+p:nth-child(odd) {
+  color: red;
+}
+
+p:nth-child(even) {
+  color: lime;
+}
+
+p:nth-child(2n+3) {
+  color: white;
+}
+
+table,
+tr,
+td {
+  border: 1px solid white;
+}
+
+td {
+  width: 400px;
+  height: 50px;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */
