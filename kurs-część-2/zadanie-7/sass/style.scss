@@ -1,0 +1,17 @@
+@use './reset' as *;
+
+body {
+	margin: 50px;
+	font-family: sans-serif;
+	font-size: 38px;
+	color: #fff;
+	background-color: #333;
+}
+div {
+	margin: 50px;
+}
+
+p:first-child{color:lime}
+p:last-child{color: gold;}
+p:first-of-type{color: yellowgreen;}
+p:last-of-type{color:orange;}
