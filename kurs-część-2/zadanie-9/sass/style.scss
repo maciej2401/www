@@ -1,0 +1,30 @@
+@use './reset1' as *;
+
+body {
+	margin: 50px;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #fff;
+	background-color: #333;
+}
+.title {
+	font-weight: bolder;
+	transition: color .5s;
+}
+.title:hover {
+	color: yellowgreen;
+}
+span:first-of-type {
+	color: rgb(255, 0, 64);
+}
+
+li:nth-of-type(even) {
+	color: lawngreen;
+}
+
+.test p:first-child {
+	color: orange;
+}
+.test p:last-child {
+	color: orange;
+}
