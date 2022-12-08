@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: sans-serif;
+	font-style: 36px;
+	color: #fff;
+	background-color: #333;
+}
+
+.sky {
+	position: relative;
+	width: 100%;
+	height: 60vw;
+	background-color: royalblue;
+}
+.sun {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	height: 90px;
+	width: 90px;
+	border-radius: 50%;
+	background-color: orange;
+	box-shadow: 0px 0px 75px orange;
+}
+.ground {
+	position: relative;
+	height: 40vh;
+	background-color: #403;
+}
+.grass {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 200px;
+	background-color: limegreen;
+}
+.road {
+	position: absolute;
+	top: 30px;
+	width: 100%;
+	height: 120px;
+	background-color: gray;
+}
