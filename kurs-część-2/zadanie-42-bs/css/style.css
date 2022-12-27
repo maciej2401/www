@@ -32,3 +32,11 @@ h2 {
 .display-1 {
 	color: red;
 }
+
+div {
+	margin: 5px;
+	padding: 20px;
+	font-style: 36px;
+	background-color: tomato;
+	border: 2px solid black;
+}
