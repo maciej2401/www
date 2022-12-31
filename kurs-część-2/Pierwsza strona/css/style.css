@@ -9,10 +9,13 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #444;
-  color: azure;
   font-size: 18px;
 }
 
-a {
-  color: royalblue;
+nav {
+  text-transform: uppercase;
+  color: #fff;
+}
+nav a {
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

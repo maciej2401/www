@@ -9,10 +9,12 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: #444;
-	color: azure;
 	font-size: 18px;
 }
-.nav-link,
-.fa-solid {
-	color: royalblue;
+nav {
+	text-transform: uppercase;
+	color: #fff;
+	a {
+		color: #fff;
+	}
 }
