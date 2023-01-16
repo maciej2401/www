@@ -8,14 +8,29 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: #fff;
   background-color: #444;
   font-size: 18px;
 }
 
 nav {
   text-transform: uppercase;
-  color: black;
 }
 nav a {
   color: black;
+}
+nav .nav-link:hover {
+  color: royalblue;
+}
+nav .nav-link:active {
+  color: red;
+}
+nav .navbar-brand {
+  font-weight: bold;
+}
+
+.fa-solid {
+  padding: 10px;
+  font-size: 30px;
+  color: blue;
 }/*# sourceMappingURL=style.css.map */
