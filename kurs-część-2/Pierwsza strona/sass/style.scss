@@ -21,8 +21,9 @@ body {
 
 nav {
 	text-transform: uppercase;
+	z-index: 1;
 	a {
-		color: black;
+		color: $white;
 	}
 	.nav-link:hover {
 		color: royalblue;
@@ -57,7 +58,7 @@ header {
 		background-position: center;
 		background-size: cover;
 		background-attachment: fixed;
-		z-index: -2;
+		z-index: 0;
 	}
 
 	.hero-shadow {
@@ -77,6 +78,19 @@ header {
 		padding: 10px;
 		text-align: center;
 		z-index: 5;
+	}
+
+	.btn-outline-light {
+		text-transform: uppercase;
+	}
+
+	.fa-chevron-down {
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%);
+		font-size: 30px;
+		bottom: 20px;
+		color: $white;
 	}
 }
 @media (min-width: 1200px) {
