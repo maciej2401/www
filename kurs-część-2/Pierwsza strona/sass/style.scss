@@ -22,11 +22,11 @@ body {
 nav {
 	text-transform: uppercase;
 	z-index: 1;
-	a {
+	.nav-link {
 		color: $white;
 	}
 	.nav-link:hover {
-		color: royalblue;
+		color: $blue-color;
 	}
 	.nav-link:active {
 		color: red;
@@ -42,7 +42,7 @@ nav {
 .fa-solid {
 	padding: 10px;
 	font-size: 30px;
-	color: blue;
+	color: $blue-color;
 }
 
 header {

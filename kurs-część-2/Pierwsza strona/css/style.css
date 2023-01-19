@@ -21,11 +21,11 @@ nav {
   text-transform: uppercase;
   z-index: 1;
 }
-nav a {
+nav .nav-link {
   color: #fff;
 }
 nav .nav-link:hover {
-  color: royalblue;
+  color: #039dff;
 }
 nav .nav-link:active {
   color: red;
@@ -40,7 +40,7 @@ nav .active {
 .fa-solid {
   padding: 10px;
   font-size: 30px;
-  color: blue;
+  color: #039dff;
 }
 
 header {
