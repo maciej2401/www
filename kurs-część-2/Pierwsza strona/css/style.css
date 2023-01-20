@@ -47,7 +47,11 @@ header {
   color: #fff;
 }
 header h1 {
+  font-size: 30px;
   text-transform: uppercase;
+}
+header p {
+  font-size: 14px;
 }
 header .hero-img {
   position: relative;
@@ -87,6 +91,22 @@ header .fa-chevron-down {
   color: #fff;
 }
 
+@media (min-width: 375px) {
+  header h1 {
+    font-size: 36px;
+  }
+  header p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 36px;
+  }
+  header p {
+    font-size: 16px;
+  }
+}
 @media (min-width: 1200px) {
   header .hero-img {
     background-image: url("../img/playstation-g5b43a732d_1920.jpg");
