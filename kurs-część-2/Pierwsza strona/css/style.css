@@ -17,6 +17,11 @@ body {
   color: #039dff;
 }
 
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: background-color 0.6s;
+}
+
 nav {
   text-transform: uppercase;
   z-index: 1;
@@ -93,7 +98,7 @@ header .fa-chevron-down {
 
 @media (min-width: 375px) {
   header h1 {
-    font-size: 36px;
+    font-size: 42px;
   }
   header p {
     font-size: 16px;
@@ -101,10 +106,10 @@ header .fa-chevron-down {
 }
 @media (min-width: 768px) {
   header h1 {
-    font-size: 42px;
+    font-size: 36px;
   }
   header p {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 @media (min-width: 1200px) {

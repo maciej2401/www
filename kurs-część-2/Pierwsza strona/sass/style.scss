@@ -19,6 +19,11 @@ body {
 	color: $blue-color;
 }
 
+.shadow-bg {
+	background-color: rgba(0, 0, 0, 0.8);
+	transition: background-color 0.6s;
+}
+
 nav {
 	text-transform: uppercase;
 	z-index: 1;
@@ -104,7 +109,7 @@ header {
 		h1 {
 			font-size: 42px;
 		}
-		
+
 		p {
 			font-size: 16px;
 		}
@@ -121,7 +126,6 @@ header {
 		}
 	}
 }
-
 
 @media (min-width: 1200px) {
 	header {
