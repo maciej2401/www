@@ -6,11 +6,26 @@
   margin: 0;
 }
 
+html {
+  scroll-padding-top: 82px;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
-  color: #fff;
   background-color: #444;
   font-size: 18px;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  margin: 0 auto 40px;
+  width: 60px;
+  height: 4px;
+  border-color: #039dff;
 }
 
 .blue-text {
@@ -96,6 +111,24 @@ header .fa-chevron-down {
   color: #fff;
 }
 
+.aboutus i {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.aboutus .aboutus-card-title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.aboutus .aboutus-card-text {
+  font-size: 14px;
+}
+.aboutus .aboutus-hover {
+  transition: color 0.3s;
+}
+.aboutus .aboutus-hover:hover {
+  color: #039dff;
+}
+
 @media (min-width: 375px) {
   header h1 {
     font-size: 42px;
@@ -110,6 +143,11 @@ header .fa-chevron-down {
   }
   header p {
     font-size: 16px;
+  }
+}
+@media (min-width: 992px) {
+  html {
+    scroll-padding-top: 72;
   }
 }
 @media (min-width: 1200px) {
