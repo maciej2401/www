@@ -140,16 +140,14 @@ main .aboutus-shadow {
   background-color: rgba(0, 0, 0, 0.7);
   z-index: -5;
 }
-main .aboutus-text {
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
-  padding: 10px;
-  text-align: center;
-  z-index: 5;
+main .aboutus-hero-item {
+  margin: 10px 0;
+}
+main .aboutus-hero-item i {
+  font-size: 36px;
+}
+main .aboutus-hero-item .aboutus-hero-title {
+  font-size: 24px;
 }
 
 @media (min-width: 375px) {
