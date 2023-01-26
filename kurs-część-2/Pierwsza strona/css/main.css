@@ -150,6 +150,21 @@ main .aboutus-hero-item .aboutus-hero-title {
   font-size: 24px;
 }
 
+.portfolio .carousel-item {
+  position: relative;
+  height: 600px;
+}
+.portfolio .carousel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 40px 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.portfolio .carousel-indicators {
+  padding-bottom: 20px;
+}
+
 @media (min-width: 375px) {
   header h1 {
     font-size: 36px;
@@ -170,12 +185,12 @@ main .aboutus-hero-item .aboutus-hero-title {
   html {
     scroll-padding-top: 72px;
   }
+  main .aboutus-hero {
+    background-image: url("../img/technology-2818664_1920.jpg");
+  }
 }
 @media (min-width: 1200px) {
   header .hero-img {
     background-image: url("../img/header-big.jpg");
-  }
-  main .aboutus-hero {
-    background-image: url("../img/technology-2818664_1920.jpg");
   }
 }/*# sourceMappingURL=main.css.map */
