@@ -182,8 +182,8 @@ main .aboutus-hero-item .aboutus-hero-title {
   }
 }
 @media (min-width: 992px) {
-  html {
-    scroll-padding-top: 72px;
+  nav {
+    height: 82px;
   }
   main .aboutus-hero {
     background-image: url("../img/technology-2818664_1920.jpg");
