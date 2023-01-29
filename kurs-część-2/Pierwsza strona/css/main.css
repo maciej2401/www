@@ -1,8 +1,7 @@
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -13,8 +12,8 @@ html {
 
 body {
   position: relative;
-  font-family: 'Montserrat', sans-serif;
-  background-color: #444;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ebecf2;
 }
 
 h2 {
@@ -39,28 +38,22 @@ h2 {
 
 nav {
   text-transform: uppercase;
-  -webkit-transition: background-color .6s;
-  transition: background-color .6s;
+  transition: background-color 0.6s;
   z-index: 1;
 }
-
 nav a,
 nav i {
   color: #fff;
 }
-
 nav a:hover {
   color: #039dff;
 }
-
 nav .fa-bars {
   padding: 10px;
 }
-
 nav .navbar-brand {
   font-weight: bold;
 }
-
 nav .active {
   color: #039dff;
 }
@@ -68,16 +61,13 @@ nav .active {
 header {
   color: #fff;
 }
-
 header h1 {
   font-size: 30px;
   text-transform: uppercase;
 }
-
 header p {
   font-size: 14px;
 }
-
 header .hero-img {
   position: relative;
   height: 100vh;
@@ -87,7 +77,6 @@ header .hero-img {
   background-attachment: fixed;
   z-index: 0;
 }
-
 header .hero-shadow {
   position: absolute;
   width: 100%;
@@ -95,36 +84,23 @@ header .hero-shadow {
   background-color: rgba(0, 0, 0, 0.8);
   z-index: -10;
 }
-
 header .hero-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 100%;
   padding: 10px;
   text-align: center;
   z-index: 5;
 }
-
 header .btn-outline-light {
   text-transform: uppercase;
 }
-
 header .fa-chevron-down {
   position: absolute;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   bottom: 20px;
   font-size: 30px;
   color: #fff;
@@ -134,21 +110,16 @@ header .fa-chevron-down {
   margin-top: 20px;
   font-size: 30px;
 }
-
 .aboutus .aboutus-card-title {
   font-size: 18px;
   text-transform: uppercase;
 }
-
 .aboutus .aboutus-card-text {
   font-size: 14px;
 }
-
 .aboutus .aboutus-hover {
-  -webkit-transition: color .3s;
-  transition: color .3s;
+  transition: color 0.3s;
 }
-
 .aboutus .aboutus-hover:hover {
   color: #039dff;
 }
@@ -161,7 +132,6 @@ header .fa-chevron-down {
   color: #ddd;
   z-index: 0;
 }
-
 .aboutus-hero .aboutus-shadow {
   position: absolute;
   top: 0;
@@ -170,15 +140,12 @@ header .fa-chevron-down {
   background-color: rgba(0, 0, 0, 0.7);
   z-index: -5;
 }
-
 .aboutus-hero .aboutus-hero-item {
   margin: 10px 0;
 }
-
 .aboutus-hero .aboutus-hero-item i {
   font-size: 36px;
 }
-
 .aboutus-hero .aboutus-hero-item .aboutus-hero-title {
   font-size: 24px;
 }
@@ -187,7 +154,6 @@ header .fa-chevron-down {
   position: relative;
   height: 600px;
 }
-
 .portfolio .carousel-caption {
   position: absolute;
   left: 0;
@@ -195,7 +161,6 @@ header .fa-chevron-down {
   padding: 40px 0;
   background-color: rgba(0, 0, 0, 0.8);
 }
-
 .portfolio .carousel-indicators {
   padding-bottom: 20px;
 }
@@ -208,7 +173,6 @@ header .fa-chevron-down {
     font-size: 16px;
   }
 }
-
 @media (min-width: 768px) {
   header h1 {
     font-size: 42px;
@@ -217,7 +181,6 @@ header .fa-chevron-down {
     font-size: 20px;
   }
 }
-
 @media (min-width: 992px) {
   nav {
     height: 82px;
@@ -226,10 +189,8 @@ header .fa-chevron-down {
     background-image: url("../img/about-hero-big.jpg");
   }
 }
-
 @media (min-width: 1200px) {
   header .hero-img {
     background-image: url("../img/header-big.jpg");
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
